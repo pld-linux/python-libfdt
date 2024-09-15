@@ -10,6 +10,7 @@ Source0:	https://www.kernel.org/pub/software/utils/dtc/dtc-%{version}.tar.xz
 # Source0-md5:	228576aceed3aa89f54283aa0f1eb820
 Patch0:		dtc-python2.patch
 URL:		https://www.devicetree.org/
+BuildRequires:	libfdt-devel >= %{version}
 BuildRequires:	python-devel >= 2
 BuildRequires:	python-setuptools
 BuildRequires:	python-setuptools_scm
