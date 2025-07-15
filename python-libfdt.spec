@@ -29,7 +29,7 @@ Wiązanie Pythona 2 do biblioteki fdt.
 
 %prep
 %setup -q -n dtc-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 export SETUPTOOLS_SCM_PRETEND_VERSION=%{version}
